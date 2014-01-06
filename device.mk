@@ -31,4 +31,8 @@ PRODUCT_COPY_FILES += \
 #OmniTorch
  PRODUCT_PACKAGES += \
         OmniTorch
-
+        
+# NFC packages
+PRODUCT_PACKAGES += \
+    nfc_nci.g2 \
+    NfcNci
